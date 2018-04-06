@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34734" started-at="2018-04-06T19:55:50Z" finished-at="2018-04-06T19:56:25Z">
+    <groups>
+    </groups>
+    <test name="Application-Test" duration-ms="34734" started-at="2018-04-06T19:55:50Z" finished-at="2018-04-06T19:56:25Z">
+      <class name="testClasess.MyNotesPage">
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testClasess.MyNotesPage@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="4752" started-at="2018-04-06T19:56:18Z" finished-at="2018-04-06T19:56:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNotes status=SUCCESS method=MyNotesPage.addNotes(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasess.MyNotesPage@4cc0edeb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addNotes(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasess.MyNotesPage@4cc0edeb]" name="addNotes" duration-ms="1646" started-at="2018-04-06T19:56:22Z" data-provider="notesTest" finished-at="2018-04-06T19:56:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[B]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[My Notes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNotes -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasess.MyNotesPage@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="737" started-at="2018-04-06T19:56:24Z" finished-at="2018-04-06T19:56:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNotes status=SUCCESS method=MyNotesPage.addNotes(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasess.MyNotesPage@4cc0edeb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testClasess.MyNotesPage -->
+      <class name="testClasess.LoginPage">
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testClasess.LoginPage@7823a2f9]" name="beforeMethod" is-config="true" duration-ms="6151" started-at="2018-04-06T19:55:50Z" finished-at="2018-04-06T19:55:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLogin status=SUCCESS method=LoginPage.invalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasess.LoginPage@7823a2f9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="invalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasess.LoginPage@7823a2f9]" name="invalidLogin" duration-ms="1060" started-at="2018-04-06T19:55:56Z" data-provider="wrongTest" finished-at="2018-04-06T19:55:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[The username or password are incorrect]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasess.LoginPage@7823a2f9]" name="afterMethod" is-config="true" duration-ms="951" started-at="2018-04-06T19:55:57Z" finished-at="2018-04-06T19:55:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLogin status=SUCCESS method=LoginPage.invalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasess.LoginPage@7823a2f9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testClasess.LoginPage@7823a2f9]" name="beforeMethod" is-config="true" duration-ms="4773" started-at="2018-04-06T19:55:58Z" finished-at="2018-04-06T19:56:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLogin status=SUCCESS method=LoginPage.invalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasess.LoginPage@7823a2f9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="invalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasess.LoginPage@7823a2f9]" name="invalidLogin" duration-ms="1007" started-at="2018-04-06T19:56:03Z" data-provider="wrongTest" finished-at="2018-04-06T19:56:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[The username or password are incorrect]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasess.LoginPage@7823a2f9]" name="afterMethod" is-config="true" duration-ms="749" started-at="2018-04-06T19:56:04Z" finished-at="2018-04-06T19:56:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLogin status=SUCCESS method=LoginPage.invalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasess.LoginPage@7823a2f9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testClasess.LoginPage@7823a2f9]" name="beforeMethod" is-config="true" duration-ms="4746" started-at="2018-04-06T19:56:05Z" finished-at="2018-04-06T19:56:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLogin status=SUCCESS method=LoginPage.invalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasess.LoginPage@7823a2f9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="invalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasess.LoginPage@7823a2f9]" name="invalidLogin" duration-ms="923" started-at="2018-04-06T19:56:09Z" data-provider="wrongTest" finished-at="2018-04-06T19:56:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[The username or password are incorrect]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasess.LoginPage@7823a2f9]" name="afterMethod" is-config="true" duration-ms="692" started-at="2018-04-06T19:56:10Z" finished-at="2018-04-06T19:56:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLogin status=SUCCESS method=LoginPage.invalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasess.LoginPage@7823a2f9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testClasess.LoginPage@7823a2f9]" name="beforeMethod" is-config="true" duration-ms="4776" started-at="2018-04-06T19:56:11Z" finished-at="2018-04-06T19:56:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=LoginPage.validLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasess.LoginPage@7823a2f9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasess.LoginPage@7823a2f9]" name="validLogin" duration-ms="1004" started-at="2018-04-06T19:56:16Z" data-provider="validTest" finished-at="2018-04-06T19:56:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My Notes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasess.LoginPage@7823a2f9]" name="afterMethod" is-config="true" duration-ms="699" started-at="2018-04-06T19:56:17Z" finished-at="2018-04-06T19:56:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=LoginPage.validLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasess.LoginPage@7823a2f9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testClasess.LoginPage -->
+    </test> <!-- Application-Test -->
+  </suite> <!-- Suite -->
+</testng-results>
