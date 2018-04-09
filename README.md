@@ -5,12 +5,12 @@ If you will download this code please proceed to **download the latest jars** fr
 1. [Selenium WebDriver Java](https://goo.gl/Us5DnZ)
 2. [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 3. [TestNG Plugin](http://beust.com/eclipse)
-  1. You need to add the plugin directly in your eclipse as follows:  
-  2. Help -> Install New Software  
-  3. Click on Add  
-  4. Name = TestNG Plugin and Location = http://beust.com/eclipse  
-  5. Check the checkbox in order to install everything (at some point a pop up will appear **accept it**)  
-  6. Follow the prompt until you have to restart your eclipse  
+  - You need to add the plugin directly in your eclipse as follows:  
+  - Help -> Install New Software  
+  - Click on Add  
+  - Name = TestNG Plugin and Location = http://beust.com/eclipse  
+  - Check the checkbox in order to install everything (at some point a pop up will appear **accept it**)  
+  - Follow the prompt until you have to restart your eclipse  
   
 4. [JCommander JAR](https://mvnrepository.com/artifact/com.beust/jcommander)
 5. [TestNG JAR](https://mvnrepository.com/artifact/org.testng/testng)
