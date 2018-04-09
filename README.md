@@ -10,8 +10,7 @@ If you will download this code please proceed to **download the latest jars** fr
   - Click on Add  
   - Name = TestNG Plugin and Location = http://beust.com/eclipse  
   - Check the checkbox in order to install everything (at some point a pop up will appear **accept it**)  
-  - Follow the prompt until you have to restart your eclipse  
-  
+  - Follow the prompt until you have to restart your eclipse    
 4. [JCommander JAR](https://mvnrepository.com/artifact/com.beust/jcommander)
 5. [TestNG JAR](https://mvnrepository.com/artifact/org.testng/testng)
 6. [Extent Reports Version: 2.41.2](http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.relevantcodes%22%20AND%20a%3A%22extentreports%22)
