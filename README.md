@@ -6,7 +6,7 @@ If you will download this code please proceed to **download the latest jars** fr
 
 2. [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 
-3. [TestNG Plugin](http://beust.com/eclipse) : Help -> Install New Software -> Add -> Name = TestNG Plugin and Location = http://beust.com/eclipse
+3. [TestNG Plugin](http://beust.com/eclipse) : Help -> Install New Software -> Add -> **Name = TestNG Plugin and Location = http://beust.com/eclipse**
 
 4. [JCommander JAR](https://mvnrepository.com/artifact/com.beust/jcommander)
 
