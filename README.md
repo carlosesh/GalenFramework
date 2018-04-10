@@ -20,7 +20,7 @@ If you will download this code please proceed to **download the latest jars** fr
 
 9.[Sqlite-jdbc Version: 3.21.0.1](http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22org.xerial%22%20AND%20a%3A%22sqlite-jdbc%22)
 
-## Quick Intro to Maven
+## Quick Intro to TestNG
 
 TestNG	is	a	testing	framework	inspired	from	JUnit	and	NUnit with	more	functionality added	to	make	execution	more	efficient	and	powerful. It	is	an	open	source	automated	testing	framework.
 
