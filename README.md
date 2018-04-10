@@ -1,8 +1,8 @@
-# WizeLine
+# Galen Framework
 
 If you will download this code please proceed to **download the latest jars** from the following links:
 
-1. [Selenium WebDriver Java](https://goo.gl/Us5DnZ)
+1. [Selenium WebDriver Java](https://www.seleniumhq.org/download/)
 
 2. [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 
