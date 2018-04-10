@@ -42,8 +42,8 @@ Major	advantages	of	TestNG	are:
 | ------------- |:-------------------------------------------------------------------------:|
 | @BeforeSuite  | Method with this annotation will run before all tests in the test suite   |
 | @AfterSuite   | Method with	this	annotation will	run after all	tests	in	the	test	suite |
-| @BeforeTest   | Method with this annotation will run before each and every test method with <test> tag in xml file |
-| @AfterTest    | Method with	this	annotation will	run	after	each	and	every	test	method with	<test>	tag	in	xml	file   |
+| @BeforeTest   | Method with this annotation will run before each and every test method with ``<test>`` tag in xml file |
+| @AfterTest    | Method with	this	annotation will	run	after	each	and	every	test	method with	``<test>``	tag	in	xml	file   |
 | @BeforeClass   | Method with	this	annotation will	run	before	first	test	method	in	current	class |
 | @AfterClass   | Method with	this	annotation will	run	after	last	test	method	in	current	class |
 | @BeforeMethod | Method with	this	annotation will	run	before	each	test	method |
